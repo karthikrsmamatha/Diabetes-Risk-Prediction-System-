@@ -10,7 +10,7 @@ import pickle
 
 # Load model and scaler
 log_model = pickle.load(open("logistic_model.pkl", "rb"))
-std_sca = pickle.load(open("scaler.pkl", "rb"))
+std_sca = pickle.load(open("Scaler.pkl", "rb"))
 
 st.title("Diabetes Prediction using Logistic Regression")
 
