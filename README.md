@@ -61,28 +61,6 @@ The project uses the **Pima Indians Diabetes Dataset**, which contains health-re
 
 The trained Logistic Regression model is deployed using **Streamlit**. Users can enter patient health information through the application and receive a diabetes risk prediction.
 
-## How to Run
-
-### 1. Clone the repository
-
-```bash
-git clone https://github.com/karthikrsmamatha/Diabetes-Risk-Prediction-System-.git
-```
-
-### 2. Install the required libraries
-
-```bash
-pip install pandas numpy matplotlib seaborn scikit-learn streamlit
-```
-
-### 3. Run the Streamlit application
-
-```bash
-streamlit run Model_Diabetes.py
-```
-
-The application will open in your web browser.
-
 ## Results
 
 The Logistic Regression model achieved **73.38% accuracy** and a **0.78 ROC-AUC score**. The trained model and scaler were saved as pickle files and integrated into a Streamlit application for diabetes risk prediction.
